@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*FUENTES*/
+
+
+/* Estructura del contenedor del navegador */
+.navegadorcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+}
+
+.logito {
+    width: 4.2rem; /* Ajusta según el tamaño deseado */
+}
+
+
+nav a {
+    color: #363636;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-jere1, .btn-jere2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 0.5px solid white;
+    color: white;
+    background-color: #1E8DEE;
+    margin-left: 1rem;
+    animation: ease-in-out 1.5s;
+}
+
+.btn-jere1 {
+    background-color: #1E8DEE;
+    border-color: #1E8DEE;
+}
+
+.btn-jere1:hover {
+    color: #1E8DEE;
+    background-color: white;
+}
+
+.btn-jere2 {
+    border-color: #1E8DEE;
+    background-color: white;
+    color: #1E8DEE;
+}
+
+.btn-jere2:hover {
+    color: white;
+    background-color: #1E8DEE;
+}
+
+/* Estilos Rubik */
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    color: #363636;
+}
+
+.rubik2 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+    color: #1E8DEE;
+}
+
+.rubik3 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #363636;
+}
+
+.rubik4 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #363636;
+    margin-left: 1rem;
+}
+
+/* Información adicional */
+.ddinfo {
+    margin-top: 1.2rem;
+    display: flex;
+    grid-column: auto;
+}
+
+/* Responsive */
+/* Responsive para Mobile-L (481px - 768px) */

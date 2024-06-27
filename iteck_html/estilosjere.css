@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+div > nav, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+}
+
+
+
+.nav-link{
+    color:#363636;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.boton-jere1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 2rem;
+    justify-content: center;
+    cursor: pointer;
+    border: 0.5px solid white;
+    color: white;
+    background-color: #1E8DEE;
+    animation: 2s;
+}
+
+
+.boton-jere1:hover {
+    color: #1E8DEE;
+    background-color: white;
+    border: 0.5px solid #1E8DEE;
+}
+
+
+.boton-jere2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 2rem;
+    justify-content: center;
+    cursor: pointer;
+    border: 0.5px solid #1E8DEE;
+    color: #1E8DEE;
+    background-color: white;
+    animation: ease-in-out 1.5s;
+}
+
+.boton-jere2:hover {
+   color: white;
+   background-color: #1E8DEE;
+}
+
+
+/* Estilos Rubik */
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    color: #363636;
+}
+
+.rubik2 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+    color: #1E8DEE;
+}
+
+.rubik3 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #363636;
+}
+
+.rubik4 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #363636;
+    margin-left: 1rem;
+}
+
+/* Información adicional */
+.ddinfo {
+    margin-top: 1.2rem;
+    display: flex;
+    grid-column: auto;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    div > nav, a{
+        gap: 0.8rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    div > nav, a{
+        gap: 0.5rem;
+    }
+}
